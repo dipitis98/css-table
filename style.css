@@ -1,0 +1,92 @@
+body,
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.Table {
+    color: #307abe;
+}
+
+.Responsive {
+    color: yellow;
+}
+
+h4 {
+    font-family: "Economica", sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 50px;
+    color: #d17666;
+}
+
+table {
+    height: 400px;
+    width: 1000px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+th {
+    height: 50px;
+    background-color: #163e64;
+    color: #417099;
+    text-align: left;
+    padding-left: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #496074;
+}
+
+tr:nth-child(odd) {
+    background-color: #627f99;
+}
+
+td:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.025);
+}
+
+.company {
+    color: lch(81.61% 53.46 84.83);
+    font-weight: bold;
+}
+
+.company:hover {
+    background-color: #ee7964;
+    color: black;
+}
+
+td {
+    color: rgb(199, 192, 192);
+    padding-left: 15px;
+    transition: all 0.3s;
+}
